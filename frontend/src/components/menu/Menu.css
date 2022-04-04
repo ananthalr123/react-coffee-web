@@ -1,0 +1,71 @@
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-container-heading {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu-container-heading span {
+    color: var(--main-color)
+}
+
+.menu-items{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    margin:2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2rem;
+    width: 30rem;
+    height: 30rem;
+    color: #fff;
+    border: var(--border);
+    text-decoration-color: black;
+}
+
+.menu-item:hover{
+    background: #fff;
+    color: black;
+    text-decoration-color: black;
+}
+
+.menu-item .item-name {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.menu-item .item-price {
+    font-size: 2rem;
+}
+
+.menu-item .item-price .older-price {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.item-button button {
+    background: var(--main-color);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 1rem;
+    padding: 0.8rem 6rem;
+}
+
+.item-button button:hover {
+    cursor: pointer;
+    letter-spacing: .1rem;
+}

@@ -1,6 +1,45 @@
-section#home-container {
+section#home_section {
     background: url(../../assets/images/home-img.jpeg) no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
+}
 
+.home-container {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    min-height: 100vh;
+
+}
+
+.home-container-column {
+    margin: 3rem 3rem;
+    padding-top: 9rem;
+    max-width: 50%;
+}
+
+.home-container-column h2 {
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.home-container-column p {
+    font-size: 2rem;
+    color: #eee;
+    line-height: 1.8;
+}
+
+.home-container-column button {
+    margin-top: 3rem;
+    padding: .9rem 3rem;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    background: var(--main-color)
+}
+
+.home-container-column button:hover{
+    letter-spacing: .1rem;
+    cursor: pointer;
 }
