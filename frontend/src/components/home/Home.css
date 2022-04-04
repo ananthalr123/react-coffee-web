@@ -1,0 +1,6 @@
+section#home-container {
+    background: url(../../assets/images/home-img.jpeg) no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}

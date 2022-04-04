@@ -1,0 +1,50 @@
+.navbar-container {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: sticky;
+    border-bottom: .1rem solid #d3ad7f;
+}
+
+.navbar {
+    padding: 0.25rem 7%;
+    color: #fff;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo img {
+    align-items: center;
+    height: 6rem;
+}
+
+.navbar-links a {
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.navbar-links a:hover {
+    color: var(--main-color)
+}
+
+.navbar-profile-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-profile-icon {
+    padding-right: 2rem
+}
+
+.navbar-profile-icon:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.navbar-user {
+    margin-left: 3rem;
+}
