@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 2rem;
 }
 
 .menu-container-heading {
@@ -16,7 +17,7 @@
 }
 
 .menu-items{
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
 }

@@ -18,7 +18,7 @@ const Menu = () => {
               <MenuItem
                 key={item.id}
                 title={item.name}
-                image={item.image}
+                pic={item.image}
                 price={item.price}
                 olderPrice={item.olderPrice}
               />

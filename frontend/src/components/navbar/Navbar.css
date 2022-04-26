@@ -31,13 +31,16 @@
 .navbar-links a:hover {
     color: var(--main-color)
 }
-
+.navbar-links a:active {
+    color: var(--main-color)
+}
 .navbar-profile-icons {
     display: flex;
     flex-direction: row;
 }
 
 .navbar-profile-icon {
+    position: relative;
     padding-right: 2rem
 }
 
@@ -48,4 +51,27 @@
 
 .navbar-user {
     margin-left: 3rem;
+}
+
+.cart-count {
+    position: absolute;
+    right: +1.5rem;
+    top: -.7rem;
+    background: red;
+    width: 1.8rem;
+    height:1.8rem;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cart-count p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.navbar-profile-icon:hover .cart-count p{
+    color: #fff;
 }

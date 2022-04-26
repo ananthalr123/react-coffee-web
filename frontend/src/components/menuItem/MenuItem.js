@@ -1,11 +1,11 @@
 import React from "react";
 import "./MenuItem.css";
 
-const MenuItem = ({ image, title, price, olderPrice }) => {
+const MenuItem = ({ pic, title, price, olderPrice }) => {
   return (
     <div className="menu-item">
       <div className="item-image">
-        <img src={image} alt="Menu Item Image" />
+        <img src={pic} alt="Menu Item Image" />
       </div>
       <div className="item-name">{title}</div>
       <div className="item-price">
